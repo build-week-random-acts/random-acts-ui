@@ -2,5 +2,85 @@ html {
     font-size: 62.5%;
 }
 body {
-    
+
+}
+html, 
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+.container {
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+    /* display: flex; */
+}
+@media (max-width: 500px) {
+    .container {
+        /* align-items: center; */
+
+    }
+}
+header {
+    text-align: center;
+    background-color: floralwhite;
+}
+h1 {
+    color: #628395;
+}
+.nav-container {
+    text-align: center;
+    margin: 15px;
+}
+
+.nav-container a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #D38D6C;
+    padding: 15px;
+    margin: 15px;
+}
+@media (max-width: 500px) {
+    .nav-container a {
+        margin: 0px;
+        
+    }
+}
+.content .main-content {
+    display: flex;
+    color: #628395;
+    background-color: floralwhite;
+}
+
+@media (max-width: 500px) {
+    .content .main-content {
+        flex-direction: column;
+    }
+}
+.content .main-content h2{
+    text-align: center;
+}
+@media (max-width: 500px) {
+    .content .main-content .first {
+        
+    }
+}
+.content .main-content p {
+    padding: 10px;
+}
+footer {
+    text-align: center;
+}
+footer .btn {
+    border-radius: 20px;
+    font-size: 1rem;
+    padding: 5px 20px;
+    background-color: #D38D6C;
+}
+footer p {
+    text-align: center;
 }
