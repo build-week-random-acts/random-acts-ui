@@ -43,8 +43,7 @@ h1 {
 }
 @media (max-width: 500px) {
     .nav-container a {
-        margin: 0px;
-        
+        margin: 0px;  
     }
 }
 .content .main-content {
