@@ -60,11 +60,6 @@ h1 {
 .content .main-content h2{
     text-align: center;
 }
-@media (max-width: 500px) {
-    .content .main-content .first {
-        
-    }
-}
 .content .main-content p {
     padding: 10px;
 }
