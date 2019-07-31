@@ -1,4 +1,6 @@
 # random-acts-ui1
+https://elated-ardinghelli-897f88.netlify.com/
+
 Pitch: 
 
 People want to do good and serve others, but it's just so hard to remember to do it. Even if you remember, it's hard to think of a service idea on the spot. Random acts generator solves both problems by reminding you to serve- randomly choosing a person from your contacts, and giving you suggestions for how to serve them.
