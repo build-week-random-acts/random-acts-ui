@@ -1,22 +1,23 @@
-.content .main-content {
+.main-content {
     display: flex;
+    flex-direction: column;
     color: #628395;
-    background-color: floralwhite;
+    padding: 30px;
+    text-align: center;
+    
 }
 
 @media (max-width: 500px) {
-    .content .main-content {
-        flex-direction: column;
+    .main-content {
+        align-items: center;
+        padding: 0;
     }
 }
-.content .main-content h2{
+.main-content h2{
     text-align: center;
+    color: #D38D6C;
+    font-size: 2.5rem;
 }
-@media (max-width: 500px) {
-    .content .main-content .first {
-        
-    }
-}
-.content .main-content p {
-    padding: 10px;
+.main-content p {
+    font-size: 1rem;
 }
