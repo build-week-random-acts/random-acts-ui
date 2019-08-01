@@ -19,7 +19,7 @@ header {
 }
 
 h1 {
-    color: #628395;
+    color: #D38D6C;
 }
 .nav-container {
     text-align: center;
@@ -28,7 +28,7 @@ h1 {
 .nav-container a {
     text-decoration: none;
     font-weight: bold;
-    color: #D38D6C;
+    color: #628395;
     margin: 15px;
 }
 .profile-img img {
@@ -62,8 +62,8 @@ h1 {
     font-size: 1rem;
 }
 .sign-up {
-    background: #628395;
-    color: white;
+    background: #ffede1;
+    color: #628395;
     border-radius: 20px;
     font-size: 1rem;
     padding: 5px 20px;
