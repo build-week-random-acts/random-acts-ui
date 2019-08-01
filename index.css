@@ -25,22 +25,11 @@ h1 {
     text-align: center;
     margin: 15px;
 }
-
 .nav-container a {
     text-decoration: none;
     font-weight: bold;
     color: #D38D6C;
-    /* padding: 15px; */
     margin: 15px;
-}
-.sign-up {
-    background: #628395;
-    color: white;
-    border-radius: 20px;
-    font-size: 1rem;
-    padding: 5px 20px;
-    margin: 10px;
-    text-decoration: none;
 }
 .profile-img img {
     display: block;
@@ -52,10 +41,10 @@ h1 {
     object-position: center 30%;
 }
 .main-content {
-    display: flex;
     flex-direction: column;
     color: #628395;
     padding: 30px;
+    margin-bottom: 5px;
     text-align: center; 
 }
 @media (max-width: 500px) {
@@ -71,6 +60,15 @@ h1 {
 }
 .main-content p {
     font-size: 1rem;
+}
+.sign-up {
+    background: #628395;
+    color: white;
+    border-radius: 20px;
+    font-size: 1rem;
+    padding: 5px 20px;
+    margin: 10px;
+    text-decoration: none;
 }
 footer {
     text-align: center;
