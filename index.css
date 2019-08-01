@@ -16,7 +16,6 @@ img {
 }
 header {
     text-align: center;
-    background-color: #f9fbf2;
 }
 
 h1 {
@@ -53,10 +52,8 @@ h1 {
     flex-direction: column;
     color: #628395;
     padding: 30px;
-    text-align: center;
-    
+    text-align: center; 
 }
-
 @media (max-width: 500px) {
     .main-content {
         align-items: center;
@@ -97,6 +94,7 @@ input {
     font-size: 1rem;
     padding: 5px 20px;
     margin: 10px;
+    text-decoration: none;
   }
 .team {
     display: flex;
