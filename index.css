@@ -21,6 +21,11 @@ header {
 h1 {
     color: #D38D6C;
 }
+@media (max-width:500px) {
+    h1 {
+        font-size: 2rem;
+    }
+}
 .nav-container {
     text-align: center;
     margin: 20px;
