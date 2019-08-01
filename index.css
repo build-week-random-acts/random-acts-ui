@@ -69,6 +69,7 @@ h1 {
     padding: 5px 20px;
     margin: 10px;
     text-decoration: none;
+    border: none;
 }
 footer {
     text-align: center;
